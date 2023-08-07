@@ -55,10 +55,8 @@ const styles = StyleSheet.create({
     },
     background: {
         backgroundColor: 'rgba(0, 0, 0, 0.6)',
-        height: '40%',
-        width: '100%',
+        height: '100%',
         flexDirection: 'column',
-        justifyContent: 'center',
         alignItems: 'center'
     },
     zipCodecontainer: {
