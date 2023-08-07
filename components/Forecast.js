@@ -31,17 +31,17 @@ const styles = StyleSheet.create({
         lineHeight: 70
     },
     tempContainer: {
-        flexDirection: 'row', 
+        flexDirection: 'row',
         alignItems: 'center'
     },
     temp: {
         fontSize: 26,
-        color: 'white' ,
-        lineHeight: 70       
+        color: 'white',
+        lineHeight: 70
     },
     tempC: {
         fontSize: 18,
-        color: 'white' ,
-        lineHeight: 70       
+        color: 'white',
+        lineHeight: 70
     },
 });

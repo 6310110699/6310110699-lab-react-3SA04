@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
         height: '100%'
     },
     background: {
-        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+        backgroundColor: 'rgba(0, 0, 0, 0.6)',
         height: '40%',
         width: '100%',
         flexDirection: 'column',
@@ -43,13 +43,12 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 18,
         color: 'white',
-        lineHeight: 70       
+        lineHeight: 70
 
     },
     zipCode: {
         fontSize: 18,
-        color: 'white' ,
-        lineHeight: 70     
+        color: 'white',
+        lineHeight: 70
     }
-    
 });
