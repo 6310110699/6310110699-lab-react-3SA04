@@ -1,9 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 export default function Forecast(props) {
     return (
         <View style={styles.container}>
+             <Text style={styles.subtitle}> </Text>
+            <MaterialCommunityIcons size={60} name="cloud" color={'#ffffff'} />
             <Text style={styles.main}>{props.main}</Text>
             <Text style={styles.description}>{props.description}</Text>
             <View style={styles.tempContainer}>
