@@ -9,6 +9,17 @@ const availableZipItems = [
     { place: 'Chiangmai', code: '50000' },
     { place: 'Khonkaen', code: '40000' },
     { place: 'Chonburi', code: '20000' },
+    { place: 'Narathiwat', code: '96000' },
+    { place: 'pattani', code: '94000' },
+    { place: 'Yala', code: '95000' },
+    { place: 'Songkhla', code: '90000' },
+    { place: 'Krabi', code: '81000' },
+    { place: 'Phrae', code: '54000' },
+    { place: 'Nan', code: '55000' },
+    { place: 'Lamphun', code: '51000' },
+    { place: 'Mae Hong Son', code: '58000' },
+    { place: 'Tak', code: '63000' },
+    { place: 'Phayao', code: '56000' },
 ]
 
 const ZipItem = ({ place, code, navigation }) => (
